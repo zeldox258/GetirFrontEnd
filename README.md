@@ -110,3 +110,8 @@ Converts a number to a pixel value. Like `3` to `'3px'`.
 handleOnCondition(cond: boolean, fn: GenericFunction, args?: any[]): (() => void | null);
 ```
 Runs a function on the condition. If condition is not met then runs a null function.
+
+
+We get all data from our server which in localhost:5000
+so we have to start server with "npm run server" method than
+we can start our program.

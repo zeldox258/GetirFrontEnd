@@ -1,7 +1,7 @@
 import { FC, Fragment, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import ItemAPI from '../../api/item';
-import Item from '../../api/modals/Item'; 
+import Item from '../../api/modals/Item';
 import useApi, { ApiReturnType } from '../../hooks/useApi';
 import { selectFilter, selectPageId } from '../../store/selectors';
 import { ArrayUtils, BinaryTuple } from '../../utils/common';
@@ -57,7 +57,7 @@ const ItemGrid: FC = () => {
             item={item}
             imageUrl={
               filter.itemType === 'mug'
-                ? 'https://cdn.shopify.com/s/files/1/0018/7337/9427/products/StarTrek_TOS-KirkSpock2020-11oz_White_Mug_mockup_Handle-on-Rightjpg_400x.jpg'
+                ? 'https://kazanfederaluniversitesi.com/wp-content/uploads/2018/08/2.jpg'
                 : 'https://imgmedia.lbb.in/media/2020/05/5eac0e7c833b2b7acdc583b2_1588334204878.jpg'
             }
           />
