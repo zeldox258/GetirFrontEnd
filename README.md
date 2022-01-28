@@ -1,7 +1,7 @@
 # getir-frontend-assignment
 A simple product listing React app.
 
-<img src="https://kazanfederaluniversitesi.com/wp-content/uploads/2018/08/2.jpg" alt="App Image">
+<img src="https://i.ibb.co/Q6b9LR7/Screen-Shot-2021-10-31-at-20-43-09.pn" alt="App Image">
 
 ## Documentation
 ### Composition and Atomic Design
