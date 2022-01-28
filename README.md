@@ -1,7 +1,7 @@
 # getir-frontend-assignment
 A simple product listing React app.
 
-<img src="https://i.ibb.co/Q6b9LR7/Screen-Shot-2021-10-31-at-20-43-09.pn" alt="App Image">
+<img src="https://camo.githubusercontent.com/d9d8e66ff2282d9d3677e3c79126293c19789379b578244ffbccc9f8d0fcd05d/68747470733a2f2f692e6962622e636f2f513662394c52372f53637265656e2d53686f742d323032312d31302d33312d61742d32302d34332d30392e706e67" alt="App Image">
 
 ## Documentation
 ### Composition and Atomic Design
