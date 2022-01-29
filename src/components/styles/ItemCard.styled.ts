@@ -11,7 +11,7 @@ export const StyledItemCardImageFrame = styled.div`
   padding: 16px;
   border: 1px solid ${(props) => props.theme.colors.imageBorder};
   display: inline-block;
-  background-color: ${(props) => props.theme.colors.white};
+  background-color: lightblue;
   margin-bottom: 8px;
 
 
