@@ -8,7 +8,7 @@ export class ArrayUtils {
   static isEmpty<T = any>(arr: T[]): boolean {
     return arr.length === 0;
   }
- 
+
   static mapToArray<V = number>(map: EntityMap<V>): BinaryTuple<string, V>[] {
     return Object.keys(map).map((key) => [key, map[key]]);
   }
@@ -18,7 +18,7 @@ export class ArrayUtils {
   }
 }
 
-export const assetUrl = process.env.PUBLIC_URL.concat('assets/');
+export const assetUrl = process.env.PUBLIC_URL.concat('/assets/');
 export const getImageUrl = (imageName: string) =>
   assetUrl.concat(`images/${imageName}.png`);
 export type EntityMap<V = number> = Record<string, V>;

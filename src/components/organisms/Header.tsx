@@ -8,7 +8,7 @@ const Header: FC = () => {
   const isMobile = useMobile();
   return (
   <StyledHeader>
-    {!isMobile && <Spacer size={1} />} 
+    {!isMobile && <Spacer size={1} />}
     <StyledCustomImage src={getSvgUrl('brand')} alt='Brand' />
     {!isMobile && <PriceBanner />}
   </StyledHeader>
