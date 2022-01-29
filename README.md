@@ -114,8 +114,13 @@ if you want to try this in your local,We get all data from our server which in l
 so you have to start server with "npm run server" method than
 you can start the program.
 
+but at the first you have to change this link with given list.
+even you dont change the link it can work but I just did this for offline mode :D.
+
+given https://simple-product-db.herokuapp.com/ link is deployed by another guy so I didnt deploy again.
+
 ```
-export const API_URL = 'http://localhost:5000/';
+export const API_URL = 'https://simple-product-db.herokuapp.com/';  //'http://localhost:5000/'; use this for local server
 
 export const GET: RequestInit = {
   method: 'GET',
@@ -123,6 +128,7 @@ export const GET: RequestInit = {
     Accept: 'application/json',
   },
 } as const;
+
 ```
 
 All required things completed.
