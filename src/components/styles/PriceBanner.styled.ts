@@ -3,17 +3,18 @@ import { Flex } from './common.styled';
 import { mobileQuery } from './mobile-query';
 
 export const StyledPriceBanner = styled.div`
-  background-color: ${({ theme }) => theme.colors.primaryDark};
+  background-color: #92a8d1;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 24px;
   display: inline-flex;
-  height: 100%;
+  height: 80%;
 `;
 
 export const StyledPriceBannerText = styled.div`
-  color: ${({ theme }) => theme.colors.white};
+  color: lightblue;
 `;
 
 export const StyledPriceBannerMask = styled(Flex)`

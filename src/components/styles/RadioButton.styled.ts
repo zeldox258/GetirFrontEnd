@@ -23,5 +23,5 @@ export const StyledRadioButtonIcon = styled.div<{ $active?: boolean }>`
 
 export const StyledRadioButtonText = styled.div`
   font-weight: 400;
-  color: ${(props) => props.theme.colors.filterText};
+  color: lightblue;
 `;

@@ -8,7 +8,7 @@ export const StyledSearchBar = styled(AnimatedInput)`
   line-height: 24px;
   font-weight: 400;
   border: ${(props) => `2px solid ${props.theme.colors.searchBarBorder}`};
-  border-radius: ${(props) => props.theme.dimensions.borderRadius};
+  border-radius: 16px;
   width: 100%;
   color: ${(props) => props.theme.colors.filterText};
   &:focus {

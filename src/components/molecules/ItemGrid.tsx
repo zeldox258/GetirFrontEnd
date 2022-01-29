@@ -57,8 +57,8 @@ const ItemGrid: FC = () => {
             item={item}
             imageUrl={
               filter.itemType === 'mug'
-                ? 'https://cdn.shopify.com/s/files/1/0018/7337/9427/products/StarTrek_TOS-KirkSpock2020-11oz_White_Mug_mockup_Handle-on-Rightjpg_400x.jpg'
-                : 'https://imgmedia.lbb.in/media/2020/05/5eac0e7c833b2b7acdc583b2_1588334204878.jpg'
+                ? 'https://kazanfederaluniversitesi.com/wp-content/uploads/2018/08/2.jpg'
+                : 'https://contents.mediadecathlon.com/p1484240/k$ab565f3675dbdd7e3c486175e2c16583/men-s-warm-travel-shirt-bordeaux.jpg?format=auto&f=800x800'
             }
           />
         ))

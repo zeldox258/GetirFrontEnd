@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledShoppingCart = styled.div`
-  border-radius: ${(props) => props.theme.dimensions.borderRadius};
-  border: 8px solid ${(props) => props.theme.colors.primary};
+  border-radius: 16px;
+  border: 8px solid #92a8d1;
   width: 296px;
   padding: 24px 24px 16px;
   background-color: ${(props) => props.theme.colors.white};
@@ -10,7 +10,8 @@ export const StyledShoppingCart = styled.div`
 `;
 
 export const StyledShoppingCartPriceTag = styled.div`
-  border-radius: ${(props) => props.theme.dimensions.borderRadius};
+  background-color: #92a8d1;
+  border-radius: 16px;
   border: 2px solid ${(props) => props.theme.colors.primary};
   color: ${(props) => props.theme.colors.primary};
   line-height: 16px;

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledShoppingCartItem = styled.div`
+  border-radius: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;

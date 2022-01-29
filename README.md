@@ -1,8 +1,6 @@
 # getir-frontend-assignment
 A simple product listing React app.
 
-<img src="https://camo.githubusercontent.com/d9d8e66ff2282d9d3677e3c79126293c19789379b578244ffbccc9f8d0fcd05d/68747470733a2f2f692e6962622e636f2f513662394c52372f53637265656e2d53686f742d323032312d31302d33312d61742d32302d34332d30392e706e67" alt="App Image">
-
 ## Documentation
 ### Composition and Atomic Design
 Composition is indeed one of the crucial pillars of React programming. To achieve this neat goal I utilized [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/). I was careful about not exceeding a predefined number of lines in any function to increase readability and maintainability.
@@ -112,6 +110,19 @@ handleOnCondition(cond: boolean, fn: GenericFunction, args?: any[]): (() => void
 Runs a function on the condition. If condition is not met then runs a null function.
 
 
-We get all data from our server which in localhost:5000
-so we have to start server with "npm run server" method than
-we can start our program.
+if you want to try this in your local,We get all data from our server which in localhost:5000
+so you have to start server with "npm run server" method than
+you can start the program.
+
+```
+export const API_URL = 'http://localhost:5000/';
+
+export const GET: RequestInit = {
+  method: 'GET',
+  headers: {
+    Accept: 'application/json',
+  },
+} as const;
+```
+
+All required things completed.

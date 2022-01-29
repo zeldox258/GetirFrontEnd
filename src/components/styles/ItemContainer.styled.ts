@@ -4,8 +4,11 @@ import { mobileQuery } from './mobile-query';
 
 export const StyledItemContainer = styled(CenteredFlex)`
   padding: 0 16px;
+  margin: 10px;
   flex: 1;
   flex-direction: column;
+  border-radius: 15px;
+  background-color: #92a8d1;
 `;
 
 export const StyledItemContainerHeadline = styled.h1`

@@ -9,7 +9,7 @@ import SearchFragment from './SearchFragment';
 
 const FilterGroup: FC = () => {
   const memoizedGetCompanyMap = useCallback(
-    () => CompanyAPI.instance.getCompanyMap(), 
+    () => CompanyAPI.instance.getCompanyMap(),
     []
   );
   const memoizedGetTagMap = useCallback(() => ItemAPI.instance.getTagMap(), []);
@@ -38,7 +38,7 @@ const FilterGroup: FC = () => {
         <SearchFragment
           filterProp={'tag'}
           totalCount={totalCount}
-          placeholder='Search brand'
+          placeholder='Search tag'
           list={ArrayUtils.mapToArray(tagMap)}
         />
       </FilterFrame>

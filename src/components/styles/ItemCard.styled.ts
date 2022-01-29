@@ -14,6 +14,7 @@ export const StyledItemCardImageFrame = styled.div`
   background-color: ${(props) => props.theme.colors.white};
   margin-bottom: 8px;
 
+
   & > img {
     width: 92px;
     height: 92px;

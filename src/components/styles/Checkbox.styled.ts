@@ -22,11 +22,11 @@ export const StyledCheckboxIcon = styled.div<{ $active?: boolean }>`
 
 export const StyledCheckboxText = styled.span`
   font-weight: 400;
-  color: ${(props) => props.theme.colors.filterText};
+  color: lightblue;
   margin-right: 4px;
 `;
 
 export const StyledCheckboxCount = styled.span`
   font-weight: 400;
-  color: ${(props) => props.theme.colors.inputPlaceholder};
+  color: lightblue;
 `;

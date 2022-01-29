@@ -8,9 +8,10 @@ export const StyledFilterFrameTitle = styled.div`
 `;
 
 export const StyledFilterFrameBody = styled.div`
-  background-color: ${(props) => props.theme.colors.white};
+  margin: 10px;
+  background-color: #92a8d1;
   box-shadow: ${(props) => props.theme.effects.filterFrameShadow};
-  border-radius: ${(props) => props.theme.dimensions.borderRadius};
+  border-radius: 16px;
   padding: 24px;
   width: 296px;
 `;
